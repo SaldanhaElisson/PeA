@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor0:  rgb(161, 172, 179);
+    --cor1: #c4e3f8;
+    --cor2:#5E6569;
+    --cor3:#333333;
+    --title1:'Playfair Display', serif;; 
+    --title2:'Open Sans', sans-serif;
+}
+
+body{
+    font-family: var(--title2);
+
+    background-image: url(../midias/centuriat_backgorund.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: scroll;
+   
+}
+header{
+
+    width: 100%;
+   height: 130px;
+    background-image: linear-gradient(180deg, #5E6569, rgb(170, 172, 190));
+
+    display: flex;  
+
+
+}
+
+header img{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 150px;
+    height: 80px;
+}
+
+header h1{
+
+    margin-top: 20px;
+    margin-left: 550px;
+    color: var(--cor3);
+    font-family: var(--title1);
+    font-size: 50px;
+
+}
+
+section h1{
+    font-family: var(--title1);
+    font-weight: bolder;
+    color: var(--cor3);
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+   background-color: #c4e3f8;
+
+    width: 1000px;
+    height: 900px;
+    
+    
+    margin: auto;
+}
+
+
+div#box{
+    display: flex;
+    justify-content:center;
+    
+    margin-top: 20px;
+}
+
+div.content1{
+    height: 198px;
+    width: 300px;
+
+    
+    background-color: white;
+    
+   box-shadow: 3px 5px 4px black;
+    
+}
+
+
+div.content2{
+    height: 198px;
+    width: 300px;
+
+    
+    background-color: white;
+    
+    box-shadow: 3px 5px 4px black ;
+    
+}
+
+h3{
+    display: flex;
+
+    justify-content: center;
+}
+
+li{
+    margin-top: 10px;
+    font-size: 12px;
+
+    font-family: var(--title2);
+
+    list-style-position: inside;
+
+    margin-left: 30px;
+}
+
+section.margin{
+    margin-top: 80px;
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+    font-family: var(--title2);
+    color: var(--cor3);
+
+    font-size: 24px;
+}
+
+footer{
+    width: 1000px;
+    height: 35px;
+    margin: auto;
+
+    background-color:#afcbde;
+
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;  
+    justify-content: center;
+
+}
+
+footer a img{
+    width: 35px;
+    height: 35px;
+
+    margin-right: 10px;
+}
+
+footer p {
+    font-family: var(--title2);
+    margin-top: 5px;
+    color: white;
+
+    font-weight: bold;
+
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.video{
+    display: flex;
+    justify-content: center;
+}
+
+div.test1{
+    width: 300px;
+    height: 300px;
+    background-color:#9e9e9e;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 30px 0px 0px 30px;
+}
+
+div.test2{
+    width: 300px;
+    height: 300px;
+    background-color: #494e52;
+
+    display: flex;
+    justify-content: center;
+}
+
+div.test3{
+    width: 300px;
+    height: 300px;
+    background-color:#524949;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 0px 30px 30px 0px;
+}
+
+img{
+    width: 150%;
+    
+}
+div >img.nico{
+    display: none;
+}
+
+div:hover >img.nico{
+    display: block;
+}
+
+
+div:hover >img{
+    display: none;
+}
+
+div >img.jonas{
+    display: none;
+}
+
+div:hover >img.jonas{
+    display: block;
+}   
+
+div >img.her{
+    display: none;
+}
+
+div:hover > img.her{
+    display: block;
+}
